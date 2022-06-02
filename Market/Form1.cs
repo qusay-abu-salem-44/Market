@@ -14,12 +14,23 @@ namespace Market
     {
         public frmlogin()
         {
+            
             InitializeComponent();
-        }
-
-        private void btnlogin_Click(object sender, EventArgs e)
+             
+    }
+        public string username = "ahmad";
+        public string password = "123";
+        private void btnlogin_Click(object sender, EventArgs e) 
         {
-            if textbox1.text 
+            if (txtusername.Text == username && textBox2.Text == password)
+                MessageBox.Show("Hello my frind  " + username);
+
+            else
+                MessageBox.Show("incorrect usrname or password");
+          
+                
+            
+
         }
     }
 }

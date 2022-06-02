@@ -30,7 +30,7 @@
         {
             this.lblusername = new System.Windows.Forms.Label();
             this.lblpassowrd = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtusername = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -53,12 +53,12 @@
             this.lblpassowrd.TabIndex = 1;
             this.lblpassowrd.Text = "password";
             // 
-            // textBox1
+            // txtusername
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 102);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(281, 38);
-            this.textBox1.TabIndex = 2;
+            this.txtusername.Location = new System.Drawing.Point(280, 102);
+            this.txtusername.Name = "txtusername";
+            this.txtusername.Size = new System.Drawing.Size(281, 38);
+            this.txtusername.TabIndex = 2;
             // 
             // textBox2
             // 
@@ -85,7 +85,7 @@
             this.ClientSize = new System.Drawing.Size(848, 680);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtusername);
             this.Controls.Add(this.lblpassowrd);
             this.Controls.Add(this.lblusername);
             this.Name = "frmlogin";
@@ -99,7 +99,7 @@
 
         private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.Label lblpassowrd;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtusername;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnlogin;
     }
