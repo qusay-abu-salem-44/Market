@@ -32,5 +32,10 @@ namespace Market
             
 
         }
+
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+              
+        }
     }
 }
